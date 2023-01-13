@@ -220,9 +220,7 @@ esp_loader_error_t esp_loader_change_baudrate(uint32_t baudrate);
   *     - ESP_LOADER_ERROR_INVALID_RESPONSE Internal error
   *     - ESP_LOADER_ERROR_UNSUPPORTED_FUNC Unsupported on the target
   */
-#if MD5_ENABLED
 esp_loader_error_t esp_loader_flash_verify(void);
-#endif
 /**
   * @brief Toggles reset pin.
   */
