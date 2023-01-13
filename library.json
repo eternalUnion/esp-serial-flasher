@@ -1,15 +1,14 @@
 {
   "name": "Esp32 Flasher",
-  "version": "1.4.10",
-  "license": "Unlicense",
-  "keywords": "rfid, spi",
-  "description": "Arduino RFID Library for MFRC522 (SPI). Read/Write a RFID Card or Tag using the ISO/IEC 14443A/MIFARE interface.",
+  "version": "1.0",
+  "license": "Apache 2.0",
+  "keywords": "flash",
+  "description": "Used to flash microcontroller with another microcontroller",
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/espressif/esp-serial-flasher"
+    "url": "https://github.com/eternalUnion/esp-serial-flasher"
   },
-  "exclude": "doc",
   "frameworks": "arduino",
-  "platforms": ["atmelavr", "atmelsam", "ststm32", "espressif8266", "espressif32", "samd"]
+  "platforms": ["espressif8266", "espressif32"]
 }
